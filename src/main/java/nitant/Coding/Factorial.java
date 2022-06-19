@@ -3,11 +3,11 @@ package nitant.Coding;
 public class Factorial {
 	
 public static void main (String args []) {
-	Factorial f = new Factorial();
-	System.out.println(f.factorial(5));
+	int fact = factorial(5);
+	System.out.println(fact);
 }
 
-public int factorial (int number) 
+public static int factorial (int number) 
 {
 	if (number == 0) {
 		return 1;
